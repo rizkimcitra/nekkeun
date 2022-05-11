@@ -2,11 +2,23 @@
   "name": "nekkeun",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizkimcitra/nekkeun.git"
+  },
+  "author": "Rizki Maulana Citra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rizkimcitra/nekkeun/issues"
+  },
+  "homepage": "https://github.com/rizkimcitra/nekkeun#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "husky install",
+    "format": "prettier --config ./.prettierrc.js --w"
   },
   "dependencies": {
     "next": "12.1.6",
