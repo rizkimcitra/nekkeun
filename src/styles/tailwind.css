@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 @layer base {
+  /* change something to affect it's base style of tailwind css */
+  h1 {
+    @apply text-3xl font-bold md:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl font-bold md:text-3xl;
+  }
+
+  h3 {
+    @apply text-xl font-bold md:text-2xl;
+  }
+
+  h4 {
+    @apply text-lg font-bold md:text-xl;
+  }
   body {
     @apply font-sans antialiased;
   }
