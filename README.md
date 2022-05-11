@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <p align="center">📦Nekkeun</p>
 
-## Getting Started
+A clean NEXT.js starter for universal project, use it without worrying about the boilerplate.
 
-First, run the development server:
+## Development Server
+
+To run the development server, run the following command:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+See `http://localhost:3000` in your browser to preview the project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> If you're willing to use NPM instead of YARN, consider removing `yarn.lock` file from the root directory.
 
-## Learn More
+## Husky, Lint Staged, And Commitizen
 
-To learn more about Next.js, take a look at the following resources:
+More docs soon...
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Absolute Import
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+rather than using this way:
 
-## Deploy on Vercel
+```ts
+import Component from '../../../components/Component'
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+use this way instead:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```ts
+import Component from '@/components/Component'
+```
+
+> Configure the path yourself, see `tsconfig.json` file to change the absolute import configuration.
+
+Deps:
+
+- Added Soon
+
+devDeps:
+
+- Added Soon
