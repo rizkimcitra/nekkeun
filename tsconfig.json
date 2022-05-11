@@ -14,10 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": "./src",
     "paths": {
       "@/*": ["*"],
-      "#/": ["./src/components"],
-      "!/helpers": ["./src/helpers"]
+      "#/": ["./components"],
+      "!/helpers": ["./helpers"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
