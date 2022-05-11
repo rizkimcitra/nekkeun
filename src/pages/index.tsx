@@ -7,7 +7,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Nekkeun - NEXT.js App</title>
       </Head>
-      <h1 className='text-3xl md:text-5xl font-bold text-center'>Hello World</h1>
+      <h1>Hello World</h1>
     </div>
   )
 }
