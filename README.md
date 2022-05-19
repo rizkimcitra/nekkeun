@@ -37,7 +37,7 @@ npm run dev
 
 See `http://localhost:3000` in your browser to preview the project.
 
-> If you're willing to use NPM instead of YARN, consider removing `yarn.lock` file from the root directory.
+> If you're willing to use NPM instead of YARN, consider removing `yarn.lock` file from the root directory, and run `npm install` again
 
 ## Husky, Lint Staged, And Commitizen
 
